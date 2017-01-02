@@ -40,7 +40,7 @@
                     "paths": {
                         "/": {
                             "type": "static",
-                            "directory": "../web"
+                            "directory": "../web/edleak/"
                         },
                         "ws": {
                             "type": "websocket"
