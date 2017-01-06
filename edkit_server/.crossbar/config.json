@@ -59,7 +59,7 @@
             "components": [
                 {
                     "type": "class",
-                    "classname": "edkit_server.wamp.edleak.AppSession",
+                    "classname": "wamp.edleak.AppSession",
                     "realm": "realm1",
                     "transport": {
                         "type": "websocket",
