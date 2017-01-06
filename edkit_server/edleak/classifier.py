@@ -1,7 +1,7 @@
 import pickle
 import os
 
-import edkit.edleak.features as features
+import edkit_server.edleak.features as features
 
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))

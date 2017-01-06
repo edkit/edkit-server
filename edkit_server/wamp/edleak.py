@@ -5,7 +5,7 @@ from autobahn.twisted.util import sleep
 from autobahn.twisted.wamp import ApplicationSession
 from autobahn.wamp.exception import ApplicationError
 
-from edkit.edleak.classifier import Classifier
+from edkit_server.edleak.classifier import Classifier
 
 class AppSession(ApplicationSession):
 
