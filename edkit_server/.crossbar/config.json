@@ -5,7 +5,7 @@
             "type": "router",
             "realms": [
                 {
-                    "name": "realm1",
+                    "name": "edkit",
                     "roles": [
                         {
                             "name": "anonymous",
@@ -60,7 +60,7 @@
                 {
                     "type": "class",
                     "classname": "wamp.edleak.AppSession",
-                    "realm": "realm1",
+                    "realm": "edkit",
                     "transport": {
                         "type": "websocket",
                         "endpoint": {
