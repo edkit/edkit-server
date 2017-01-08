@@ -14,6 +14,8 @@ except IOError:
     description = ''
 
 install_requires = [
+    'crossbar>=16.10.1',
+    'scikit-learn>=0.18.1'
 ]
 
 setup(
@@ -30,8 +32,11 @@ setup(
     include_package_data=True,
     platforms='any',
     classifiers=[
+        'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3',
+        'Topic :: Software Development :: Debuggers'
     ],
     scripts=['edkit-server'],
 )
