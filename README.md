@@ -6,9 +6,15 @@ This is the server component of edKit.
 
 install dependencies:
 
-    pip3 install autobahn
+    pip3 install numpy
+    pip3 install scipy
 
+install edkit-server:
+
+    pip3 install edkit-server
 
 start the server:
 
-    crossbar start
+    edkit-server
+
+you can then use the web app from you browser on port 8080
