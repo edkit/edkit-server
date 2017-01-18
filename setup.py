@@ -20,7 +20,7 @@ install_requires = [
 
 setup(
     name="edkit-server",
-    version='0.3.0',
+    version='0.3.1',
     url='https://github.com/edkit/edkit-server',
     license='MIT',
     description="edkit server package for local usage",
